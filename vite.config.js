@@ -11,6 +11,7 @@ let outDir = resolve(__dirname, 'dist')
 
 export default defineConfig({
   root: root, 
+  base: '/map-salad-web/',
   plugins: [react(), splitVendorChunkPlugin()],
   build: { 
     outDir,

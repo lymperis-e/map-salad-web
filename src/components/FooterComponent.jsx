@@ -1,7 +1,7 @@
 
 
 
-function FooterComponent(args) {
+function FooterComponent() {
 return (
   <footer className="footer items-center p-4 bg-neutral bg-opacity-0 mt-auto /*text-neutral-content*/ flex flex-row">
   <div className="items-center grid-flow-col text-xs">
