@@ -26,7 +26,7 @@ function Contact() {
 
                    
                     <Card.Actions className="justify-end">
-                        <Button color="primary">Buy Now</Button>
+                        {/*<Button color="primary">Buy Now</Button>*/}
                     </Card.Actions>
 
                 </Card.Body>
