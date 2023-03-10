@@ -1,7 +1,7 @@
 {
   "name": "map-salad-web",
   "private": true,
-  "homepage":"https://lymperis-e.github.io/map-salad-web/",
+  "homepage":"https://lymperis-e.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
