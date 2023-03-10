@@ -1,0 +1,14 @@
+import React from 'react'
+import { NavLink } from "react-router-dom";
+import {Menu} from 'react-daisyui'
+
+function NavbarElement(props) {
+  const { children, ...attrs } = props;
+  const { link, text, ...restAttrs } = attrs;
+
+  return (
+    <NavLink to={link} className="btn btn-ghost normal-case nav-link" {...restAttrs} > {children} </NavLink>
+  )
+}
+
+export default NavbarElement

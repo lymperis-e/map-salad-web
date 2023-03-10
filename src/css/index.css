@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* fonts */
+  --font-main: 'Playfair Display', serif;
+  --font-secondary: 'Montserrat', sans-serif;
+
+  font-family: var(--font-main);
+  transition: all .7s;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: hsla(var(--b1) / var(--tw-bg-opacity, 1));
+  background: hsla(var(--bc) / var(--tw-text-opacity, 1));
+}
+
+::selection {
+  color: hsla(var(--b1) / var(--tw-bg-opacity, 1));
+  background: hsla(var(--bc) / var(--tw-text-opacity, 1));
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  font-family: var(--font-main);
+}
+a{
+    font-family: var(--font-main);
+}
+p{
+  font-family: var(--font-secondary)
+}
+
+
+
+#root{
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  min-height: 100vh;
+}
+.page-content{
+  margin-left: auto;
+  margin-right: auto;
+}
