@@ -5,7 +5,8 @@ function FooterComponent() {
 return (
   <footer className="footer items-center p-4 bg-neutral bg-opacity-0 mt-auto /*text-neutral-content*/ flex flex-row">
   <div className="items-center grid-flow-col text-xs">
-    <p>map-salad (efstathios lymperis) © 2023</p>
+    {/*<p>map-salad (efstathios lymperis) © 2023</p>*/}
+    <p className="">© <span className='text-primary'>map-salad</span> project (efstathios lymperis)</p>
   </div> 
 
   <div className="grid-flow-col gap-4 ml-auto md:place-self-center md:justify-self-end">

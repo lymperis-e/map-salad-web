@@ -11,7 +11,10 @@ let outDir = resolve(__dirname, 'dist')
 
 export default defineConfig({
   root: root, 
-  base: '/map-salad-web/',
+  base: process.env.NODE_ENV === 'production' ? '/map-salad-web/' : '/',
+  define: {
+    'process.env.PUBLIC_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/map-salad-web' : '')
+  },
   plugins: [react(), splitVendorChunkPlugin()],
   build: { 
     outDir,

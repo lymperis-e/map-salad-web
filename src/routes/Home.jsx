@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { Hero } from 'react-daisyui'
 import { Button, Badge } from 'react-daisyui'
 
-import coverImg from '../public/img/cvr.webp'
+import coverImg from '../public/img/home-bg.webp'
 
 
 
@@ -33,12 +33,12 @@ function Home() {
                     <div className='text-left'>
                         <h1 className="text-5xl font-bold hero-headline">map-salad</h1>
                         <p className="py-6">
-                            Minimal maps <span className="text-secondary"> made in Greece</span>.
+                            Minimal maps <span className="text-secondary-focus"> made in Greece</span>.
                         </p>
                         <p>
-                            <Badge>aesthetic cartography & design</Badge>
-                            <Badge>concept maps</Badge>
-                            <Badge>creative data art</Badge>
+                            <Badge className='mx-1'>aesthetic cartography & design</Badge>
+                            <Badge className='mx-1'>concept maps</Badge>
+                            <Badge className='mx-1'>creative data art</Badge>
                         </p>
                         {/*<Button color="primary">explore</Button>*/}
                     </div>
